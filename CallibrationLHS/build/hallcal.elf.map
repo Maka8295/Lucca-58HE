@@ -87,9 +87,9 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/hallcal.dir/callibration.c.obj
  .bss           0x00000000        0x0 CMakeFiles/hallcal.dir/callibration.c.obj
  .text.select_mux_channel
-                0x00000000       0x78 CMakeFiles/hallcal.dir/callibration.c.obj
+                0x00000000       0x84 CMakeFiles/hallcal.dir/callibration.c.obj
  .text.read_sensor
-                0x00000000       0x94 CMakeFiles/hallcal.dir/callibration.c.obj
+                0x00000000       0x9c CMakeFiles/hallcal.dir/callibration.c.obj
  .text          0x00000000        0x0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x00000000        0x0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x00000000        0x0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -1002,9 +1002,9 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .data          0x00000000        0x0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
- .text          0x00000000        0x0 /tmp/ccKmvGrE.o
- .data          0x00000000        0x0 /tmp/ccKmvGrE.o
- .bss           0x00000000        0x0 /tmp/ccKmvGrE.o
+ .text          0x00000000        0x0 /tmp/ccY3oUg9.o
+ .data          0x00000000        0x0 /tmp/ccY3oUg9.o
+ .bss           0x00000000        0x0 /tmp/ccY3oUg9.o
  .data          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-malloc.o)
@@ -1323,11 +1323,11 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thum
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /tmp/ccKmvGrE.o
+ .boot2         0x10000000      0x100 /tmp/ccY3oUg9.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x4750
+.text           0x10000100     0x4780
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1392,339 +1392,340 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thum
  .text.frame_dummy
                 0x100002e4       0x24 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x10000308      0x110 CMakeFiles/hallcal.dir/callibration.c.obj
+                0x10000308      0x13c CMakeFiles/hallcal.dir/callibration.c.obj
                 0x10000308                main
  .text.gpio_set_function
-                0x10000418       0x30 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000418                gpio_set_function
+                0x10000444       0x30 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000444                gpio_set_function
  .text.gpio_set_pulls
-                0x10000448       0x24 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000448                gpio_set_pulls
+                0x10000474       0x24 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000474                gpio_set_pulls
  .text.gpio_set_input_enabled
-                0x1000046c       0x28 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x1000046c                gpio_set_input_enabled
+                0x10000498       0x28 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10000498                gpio_set_input_enabled
  .text.gpio_init
-                0x10000494       0x3c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10000494                gpio_init
+                0x100004c0       0x3c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x100004c0                gpio_init
  .text.running_on_fpga
-                0x100004d0       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x100004d0                running_on_fpga
+                0x100004fc       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x100004fc                running_on_fpga
  .text.hw_claim_or_assert
-                0x100004e0       0x44 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x100004e0                hw_claim_or_assert
+                0x1000050c       0x44 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x1000050c                hw_claim_or_assert
  .text.spin_locks_reset
-                0x10000524       0x1c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000524                spin_locks_reset
+                0x10000550       0x1c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x10000550                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x10000540       0x18 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x10000540                next_striped_spin_lock_num
+                0x1000056c       0x18 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x1000056c                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x10000558       0x24 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000558                irq_set_enabled
+                0x10000584       0x24 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000584                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x1000057c       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000057c                irq_get_vtable_handler
+                0x100005a8       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005a8                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x1000058c       0x54 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000058c                irq_set_exclusive_handler
+                0x100005b8       0x54 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100005b8                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x100005e0      0x1c4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100005e0                irq_remove_handler
+                0x1000060c      0x1c4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x1000060c                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x100007a4       0xb4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x100007a4                irq_add_tail_to_free_list
+                0x100007d0       0xb4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x100007d0                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x10000858       0x24 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x10000858                irq_init_priorities
+                0x10000884       0x24 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x10000884                irq_init_priorities
  .text.lock_init
-                0x1000087c       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x1000087c                lock_init
+                0x100008a8       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x100008a8                lock_init
  .text.mutex_init
-                0x1000088c       0x1c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x1000088c                mutex_init
+                0x100008b8       0x1c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100008b8                mutex_init
  .text.recursive_mutex_init
-                0x100008a8       0x1c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x100008a8                recursive_mutex_init
+                0x100008d4       0x1c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x100008d4                recursive_mutex_init
  .text.timer_pool_entry_comparator
-                0x100008c4       0x34 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
-                0x100008c4                timer_pool_entry_comparator
+                0x100008f0       0x34 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x100008f0                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x100008f8       0x30 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000924       0x30 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x10000928      0x100 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000954      0x100 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x10000a28      0x1c0 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000a54      0x1c0 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x10000be8       0x6c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000be8                alarm_pool_init_default
+                0x10000c14       0x6c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c14                alarm_pool_init_default
  .text.alarm_pool_add_alarm_at
-                0x10000c54      0x17c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000c54                alarm_pool_add_alarm_at
+                0x10000c80      0x17c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000c80                alarm_pool_add_alarm_at
  .text.sleep_until
-                0x10000dd0       0xc4 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000dd0                sleep_until
+                0x10000dfc       0xc4 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000dfc                sleep_until
  .text.sleep_us
-                0x10000e94       0x28 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000e94                sleep_us
+                0x10000ec0       0x28 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000ec0                sleep_us
  .text.sleep_ms
-                0x10000ebc       0x38 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000ebc                sleep_ms
+                0x10000ee8       0x38 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000ee8                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x10000ef4       0xcc CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
-                0x10000ef4                best_effort_wfe_or_timeout
+                0x10000f20       0xcc CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_time/time.c.obj
+                0x10000f20                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x10000fc0       0xbc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10000fec       0xbc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x1000107c       0x18 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000107c                hardware_alarm_claim
+                0x100010a8       0x18 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100010a8                hardware_alarm_claim
  .text.time_us_64
-                0x10001094       0x14 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001094                time_us_64
+                0x100010c0       0x14 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100010c0                time_us_64
  .text.busy_wait_us
-                0x100010a8       0x68 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100010a8                busy_wait_us
+                0x100010d4       0x68 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100010d4                busy_wait_us
  .text.busy_wait_until
-                0x10001110       0x20 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001110                busy_wait_until
+                0x1000113c       0x20 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000113c                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x10001130       0x8c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x10001130                hardware_alarm_set_callback
+                0x1000115c       0x8c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000115c                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x100011bc       0xd0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x100011bc                hardware_alarm_set_target
+                0x100011e8       0xd0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100011e8                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x1000128c       0x3c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x1000128c                hardware_alarm_cancel
+                0x100012b8       0x3c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x100012b8                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x100012c8       0x58 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x100012f4       0x58 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x10001320       0x3c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x10001320                ph_post_alloc_init
+                0x1000134c       0x3c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x1000134c                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x1000135c       0x8c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x1000135c                ph_merge_two_pass
+                0x10001388       0x8c CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001388                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x100013e8      0x100 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001414      0x100 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x100014e8      0x104 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100014e8                ph_remove_head
+                0x10001514      0x104 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001514                ph_remove_head
  .text.ph_remove_and_free_node
-                0x100015ec       0x78 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x100015ec                ph_remove_and_free_node
+                0x10001618       0x78 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x10001618                ph_remove_and_free_node
  .text.uart_init
-                0x10001664      0x18c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x10001664                uart_init
+                0x10001690      0x18c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x10001690                uart_init
  .text.clocks_init
-                0x100017f0      0x2c8 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100017f0                clocks_init
+                0x1000181c      0x2c8 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x1000181c                clocks_init
  .text.clock_get_hz
-                0x10001ab8        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10001ab8                clock_get_hz
+                0x10001ae4        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10001ae4                clock_get_hz
  .text.pll_init
-                0x10001ac4       0xa4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x10001ac4                pll_init
+                0x10001af0       0xa4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x10001af0                pll_init
  .text.watchdog_start_tick
-                0x10001b68       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x10001b68                watchdog_start_tick
+                0x10001b94       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x10001b94                watchdog_start_tick
  .text.xosc_init
-                0x10001b78       0x28 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10001b78                xosc_init
+                0x10001ba4       0x28 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10001ba4                xosc_init
  .text.runtime_init
-                0x10001ba0       0xf0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001ba0                runtime_init
- .text._exit    0x10001c90        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001c90                _exit
- .text.exit     0x10001c94        0x8 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001c94                exit
- .text.panic    0x10001c9c       0x30 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001c9c                panic
+                0x10001bcc       0xf0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001bcc                runtime_init
+ .text._exit    0x10001cbc        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001cbc                _exit
+ .text.exit     0x10001cc0        0x8 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001cc0                exit
+ .text.panic    0x10001cc8       0x30 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001cc8                panic
  .text.hard_assertion_failure
-                0x10001ccc        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10001ccc                hard_assertion_failure
+                0x10001cf8        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10001cf8                hard_assertion_failure
  .text._out_null
-                0x10001cd8        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001d04        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x10001cdc       0xac CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001d08       0xac CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x10001d88      0x250 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10001db4      0x250 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x10001fd8       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002004       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x10001fe8       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x10001ff8      0x464 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x1000245c      0x3c0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002014       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x10002024      0x464 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10002488      0x3c0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x1000281c      0xbc8 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10002848      0xbc8 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x100033e4       0x20 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x100033e4                vfctprintf
+                0x10003410       0x20 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003410                vfctprintf
  .text.weak_raw_vprintf
-                0x10003404       0x30 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x10003404                weak_raw_vprintf
- .text          0x10003434       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10003430       0x30 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10003430                weak_raw_vprintf
+ .text          0x10003460       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x10003444       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003444                rom_func_lookup
+                0x10003470       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003470                rom_func_lookup
  .text.rom_data_lookup
-                0x10003454       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003454                rom_data_lookup
+                0x10003480       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003480                rom_data_lookup
  .text.rom_funcs_lookup
-                0x10003464       0x44 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x10003464                rom_funcs_lookup
+                0x10003490       0x44 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10003490                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x100034a8       0x50 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100034a8                __wrap___aeabi_idivmod
-                0x100034a8                divmod_s32s32
-                0x100034a8                div_s32s32
-                0x100034a8                __wrap___aeabi_idiv
-                0x100034b0                divmod_s32s32_unsafe
-                0x100034dc                divmod_s32s32_savestate
+                0x100034d4       0x50 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x100034d4                __wrap___aeabi_idivmod
+                0x100034d4                divmod_s32s32
+                0x100034d4                div_s32s32
+                0x100034d4                __wrap___aeabi_idiv
+                0x100034dc                divmod_s32s32_unsafe
+                0x10003508                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x100034f8       0x4c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x100034f8                __wrap___aeabi_uidiv
-                0x100034f8                __wrap___aeabi_uidivmod
-                0x100034f8                div_u32u32
-                0x100034f8                divmod_u32u32
-                0x10003500                divmod_u32u32_unsafe
-                0x10003528                divmod_u32u32_savestate
+                0x10003524       0x4c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003524                __wrap___aeabi_uidiv
+                0x10003524                __wrap___aeabi_uidivmod
+                0x10003524                div_u32u32
+                0x10003524                divmod_u32u32
+                0x1000352c                divmod_u32u32_unsafe
+                0x10003554                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x10003544      0x424 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x10003544                div_s64s64
-                0x10003544                divmod_s64s64
-                0x10003544                __wrap___aeabi_ldivmod
-                0x10003574                div_u64u64
-                0x10003574                divmod_u64u64
-                0x10003574                __wrap___aeabi_uldivmod
-                0x10003584                divmod_u64u64_savestate
-                0x100035a4                divmod_s64s64_unsafe
-                0x1000362c                divmod_u64u64_unsafe
+                0x10003570      0x424 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x10003570                div_s64s64
+                0x10003570                divmod_s64s64
+                0x10003570                __wrap___aeabi_ldivmod
+                0x100035a0                div_u64u64
+                0x100035a0                divmod_u64u64
+                0x100035a0                __wrap___aeabi_uldivmod
+                0x100035b0                divmod_u64u64_savestate
+                0x100035d0                divmod_s64s64_unsafe
+                0x10003658                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10003968       0x80 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003968                __wrap___aeabi_drsub
-                0x1000396e                __wrap___aeabi_dsub
-                0x10003980                __wrap___aeabi_dadd
-                0x10003992                __wrap___aeabi_ddiv
-                0x100039ce                __wrap___aeabi_dmul
+                0x10003994       0x80 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003994                __wrap___aeabi_drsub
+                0x1000399a                __wrap___aeabi_dsub
+                0x100039ac                __wrap___aeabi_dadd
+                0x100039be                __wrap___aeabi_ddiv
+                0x100039fa                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x100039e8       0x6c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x100039e8                __wrap___aeabi_cdrcmple
-                0x100039f8                __wrap___aeabi_cdcmple
-                0x100039f8                __wrap___aeabi_cdcmpeq
+                0x10003a14       0x6c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a14                __wrap___aeabi_cdrcmple
+                0x10003a24                __wrap___aeabi_cdcmple
+                0x10003a24                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x10003a54        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a54                __wrap___aeabi_dcmplt
+                0x10003a80        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a80                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmpge
-                0x10003a60       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a60                __wrap___aeabi_dcmpge
+                0x10003a8c       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a8c                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10003a70        0xa CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a70                __wrap___aeabi_dcmpgt
+                0x10003a9c        0xa CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003a9c                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10003a7a       0x1c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a7a                __wrap___aeabi_dcmpun
- *fill*         0x10003a96        0x2 
+                0x10003aa6       0x1c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003aa6                __wrap___aeabi_dcmpun
+ *fill*         0x10003ac2        0x2 
  .text.__wrap___aeabi_i2d
-                0x10003a98       0x38 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003a98                __wrap___aeabi_ui2d
-                0x10003aa0                __wrap___aeabi_i2d
+                0x10003ac4       0x38 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003ac4                __wrap___aeabi_ui2d
+                0x10003acc                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10003ad0       0x48 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003ad0                __wrap___aeabi_d2iz
-                0x10003ad0                double2int_z
+                0x10003afc       0x48 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003afc                __wrap___aeabi_d2iz
+                0x10003afc                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x10003b18       0x18 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x10003b18                double2uint
-                0x10003b18                __wrap___aeabi_d2uiz
+                0x10003b44       0x18 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x10003b44                double2uint
+                0x10003b44                __wrap___aeabi_d2uiz
  .text.__aeabi_double_init
-                0x10003b30       0x98 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x10003b30                __aeabi_double_init
+                0x10003b5c       0x98 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x10003b5c                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x10003bc8       0x2c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003bc8                double_table_shim_on_use_helper
+                0x10003bf4       0x2c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003bf4                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x10003bf4       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003bf4                drsub_shim
-                0x10003bfa                dsub_shim
+                0x10003c20       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003c20                drsub_shim
+                0x10003c26                dsub_shim
  .text.dadd_shim
-                0x10003c04      0x15c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003c04                dadd_shim
+                0x10003c30      0x15c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003c30                dadd_shim
  .text.dmul_shim
-                0x10003d60      0x15c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003d60                dmul_shim
+                0x10003d8c      0x15c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003d8c                dmul_shim
  .text.ddiv_shim
-                0x10003ebc      0x1b0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x10003ebc                ddiv_shim
+                0x10003ee8      0x1b0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10003ee8                ddiv_shim
  .text.double2uint_shim
-                0x1000406c        0xe CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000406c                double2uint_shim
-                0x1000406e                double2ufix_shim
- *fill*         0x1000407a        0x2 
+                0x10004098        0xe CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004098                double2uint_shim
+                0x1000409a                double2ufix_shim
+ *fill*         0x100040a6        0x2 
  .text.double2uint64_shim
-                0x1000407c       0x70 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x1000407c                double2uint64_shim
-                0x1000407e                double2ufix64_shim
-                0x1000409e                d2fix_a
+                0x100040a8       0x70 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x100040a8                double2uint64_shim
+                0x100040aa                double2ufix64_shim
+                0x100040ca                d2fix_a
  .text.dunpacks
-                0x100040ec       0x3c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x100040ec                dunpacks
+                0x10004118       0x3c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x10004118                dunpacks
  .text.__aeabi_lmul
-                0x10004128       0x32 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x10004128                __wrap___aeabi_lmul
- *fill*         0x1000415a        0x2 
+                0x10004154       0x32 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x10004154                __wrap___aeabi_lmul
+ *fill*         0x10004186        0x2 
  .text.__aeabi_float_init
-                0x1000415c       0x64 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x1000415c                __aeabi_float_init
+                0x10004188       0x64 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x10004188                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x100041c0       0x2c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x100041c0                float_table_shim_on_use_helper
- .text          0x100041ec       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100041ec                __aeabi_mem_init
- .text.memcpy   0x100041fc        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x100041fc                __wrap___aeabi_memcpy
-                0x100041fc                __wrap_memcpy
+                0x100041ec       0x2c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x100041ec                float_table_shim_on_use_helper
+ .text          0x10004218       0x10 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004218                __aeabi_mem_init
+ .text.memcpy   0x10004228        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10004228                __wrap___aeabi_memcpy
+                0x10004228                __wrap_memcpy
  .text.stdio_out_chars_crlf
-                0x10004208       0x94 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004234       0x94 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x1000429c       0x64 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100042c8       0x64 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x10004300       0x98 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004300                __wrap_putchar
+                0x1000432c       0x98 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x1000432c                __wrap_putchar
  .text.__wrap_puts
-                0x10004398       0xe0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004398                __wrap_puts
+                0x100043c4       0xe0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100043c4                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x10004478       0x30 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004478                stdio_set_driver_enabled
+                0x100044a4       0x30 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100044a4                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x100044a8       0xd4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100044a8                __wrap_vprintf
+                0x100044d4       0xd4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100044d4                __wrap_vprintf
  .text.__wrap_printf
-                0x1000457c       0x18 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000457c                __wrap_printf
+                0x100045a8       0x18 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100045a8                __wrap_printf
  .text.stdio_init_all
-                0x10004594        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10004594                stdio_init_all
+                0x100045c0        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100045c0                stdio_init_all
  .text.stdio_uart_out_chars
-                0x100045a0       0x4c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100045cc       0x4c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x100045ec       0x90 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x100045ec                stdio_uart_in_chars
+                0x10004618       0x90 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004618                stdio_uart_in_chars
  .text.on_uart_rx
-                0x1000467c       0x28 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100046a8       0x28 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_set_chars_available_callback
-                0x100046a4       0x8c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x100046d0       0x8c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_init
-                0x10004730       0x48 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004730                stdio_uart_init
+                0x1000475c       0x48 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x1000475c                stdio_uart_init
  .text.adc_init
-                0x10004778       0x38 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-                0x10004778                adc_init
- .text.strlen   0x100047b0       0x5c /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-strlen-stub.o)
-                0x100047b0                strlen
+                0x100047a4       0x38 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+                0x100047a4                adc_init
+ .text.strlen   0x100047dc       0x5c /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(libc_a-strlen-stub.o)
+                0x100047dc                strlen
  *(.fini)
- .fini          0x1000480c        0x4 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
-                0x1000480c                _fini
- .fini.__stub   0x10004810       0x40 linker stubs
+ .fini          0x10004838        0x4 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crti.o
+                0x10004838                _fini
+ *fill*         0x1000483c        0x4 
+ .fini.__stub   0x10004840       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1736,98 +1737,98 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thum
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x10004850        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10004850                        . = ALIGN (0x4)
+ .eh_frame      0x10004880        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10004880                        . = ALIGN (0x4)
 
-.glue_7         0x10004850        0x0
- .glue_7        0x10004850        0x0 linker stubs
+.glue_7         0x10004880        0x0
+ .glue_7        0x10004880        0x0 linker stubs
 
-.glue_7t        0x10004850        0x0
- .glue_7t       0x10004850        0x0 linker stubs
+.glue_7t        0x10004880        0x0
+ .glue_7t       0x10004880        0x0 linker stubs
 
-.vfp11_veneer   0x10004850        0x0
- .vfp11_veneer  0x10004850        0x0 linker stubs
+.vfp11_veneer   0x10004880        0x0
+ .vfp11_veneer  0x10004880        0x0 linker stubs
 
-.v4_bx          0x10004850        0x0
- .v4_bx         0x10004850        0x0 linker stubs
+.v4_bx          0x10004880        0x0
+ .v4_bx         0x10004880        0x0 linker stubs
 
-.iplt           0x10004850        0x0
- .iplt          0x10004850        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x10004880        0x0
+ .iplt          0x10004880        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10004850      0x2fc
+.rodata         0x10004880      0x2fc
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10004850       0xd4 CMakeFiles/hallcal.dir/callibration.c.obj
+                0x10004880       0xd4 CMakeFiles/hallcal.dir/callibration.c.obj
                                   0xf (size before relaxing)
  .rodata.hardware_alarm_claim.str1.4
-                0x10004924       0x22 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x10004954       0x22 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.panic.str1.4
-                0x10004924       0x12 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004954       0x12 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x10004924        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x10004954        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x10004924       0x15 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004954       0x15 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata._vsnprintf
-                0x10004924      0x19c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004954      0x19c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x10004ac0       0x50 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x10004af0       0x50 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x10004b10       0x3c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004b40       0x3c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x10004b10        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004b40        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x10004b1c        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004b4c        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x10004b28        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004b58        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x10004b34        0x2 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10004b64        0x2 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .rodata.str1.4
-                0x10004b36       0x2c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- *fill*         0x10004b36        0x2 
+                0x10004b66       0x2c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ *fill*         0x10004b66        0x2 
  .rodata.__bi_33.4
-                0x10004b38        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004b68        0xc CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_34.5
-                0x10004b44        0x8 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004b4c                        . = ALIGN (0x4)
+                0x10004b74        0x8 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004b7c                        . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10004b4c                        . = ALIGN (0x4)
+                0x10004b7c                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10004b4c                        __exidx_start = .
+                0x10004b7c                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10004b4c                        __exidx_end = .
-                0x10004b4c                        . = ALIGN (0x4)
-                0x10004b4c                        __binary_info_start = .
+                0x10004b7c                        __exidx_end = .
+                0x10004b7c                        . = ALIGN (0x4)
+                0x10004b7c                        __binary_info_start = .
 
-.binary_info    0x10004b4c       0x24
+.binary_info    0x10004b7c       0x24
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr81
-                0x10004b4c        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004b7c        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x10004b50        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004b80        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x10004b54        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004b84        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x10004b58        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004b88        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x10004b5c        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004b8c        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x10004b60        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004b90        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr22
-                0x10004b64        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x10004b94        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr34
-                0x10004b68        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004b98        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr33
-                0x10004b6c        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x10004b70                        __binary_info_end = .
+                0x10004b9c        0x4 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x10004ba0                        __binary_info_end = .
 
-.rel.dyn        0x10004b70        0x0
- .rel.iplt      0x10004b70        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10004b70                        . = ALIGN (0x4)
+.rel.dyn        0x10004ba0        0x0
+ .rel.iplt      0x10004ba0        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10004ba0                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -1836,7 +1837,7 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thum
                 0x20000000       0xc0 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x20000000                ram_vector_table
 
-.data           0x200000c0      0x1a4 load address 0x10004b70
+.data           0x200000c0      0x1a4 load address 0x10004ba0
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -1913,36 +1914,36 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thum
  *(.jcr)
                 0x20000264                        . = ALIGN (0x4)
                 0x20000264                        __data_end__ = .
-                0x10004b70                        __etext = LOADADDR (.data)
+                0x10004ba0                        __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x20000264        0x0 load address 0x10004d14
+                0x20000264        0x0 load address 0x10004d44
  .tm_clone_table
                 0x20000264        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x20000264        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x20000264        0x0 load address 0x10004d14
+.igot.plt       0x20000264        0x0 load address 0x10004d44
  .igot.plt      0x20000264        0x0 /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x20000264        0x0 load address 0x10004d14
+                0x20000264        0x0 load address 0x10004d44
                 0x20000264                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x20040000        0x0 load address 0x10004d14
+.scratch_x      0x20040000        0x0 load address 0x10004d44
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10004d14                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10004d44                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10004d14
+.scratch_y      0x20041000        0x0 load address 0x10004d44
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10004d14                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10004d44                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x20000268      0x3d8
                 0x20000268                        . = ALIGN (0x4)
@@ -2008,8 +2009,8 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thum
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x10004d14        0x0
-                0x10004d14                        PROVIDE (__flash_binary_end = .)
+.flash_end      0x10004d44        0x0
+                0x10004d44                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2065,7 +2066,7 @@ LOAD CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/binary_in
 LOAD CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
-LOAD /tmp/ccKmvGrE.o
+LOAD /tmp/ccY3oUg9.o
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2159,7 +2160,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000005be       0x2c CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
  .ARM.attributes
-                0x000005ea       0x22 /tmp/ccKmvGrE.o
+                0x000005ea       0x22 /tmp/ccY3oUg9.o
  .ARM.attributes
                 0x0000060c       0x1e /usr/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

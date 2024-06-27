@@ -1,4 +1,4 @@
-# Install script for directory: /home/maka/Documents/Callibration/pico-sdk
+# Install script for directory: /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/maka/Documents/Callibration/build/pico-sdk/tools/cmake_install.cmake")
-  include("/home/maka/Documents/Callibration/build/pico-sdk/src/cmake_install.cmake")
-  include("/home/maka/Documents/Callibration/build/pico-sdk/docs/cmake_install.cmake")
+  include("/home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/tools/cmake_install.cmake")
+  include("/home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/src/cmake_install.cmake")
+  include("/home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

@@ -3,14 +3,14 @@
 #include <stdio.h>
 
 // Define the control pins for the multiplexer
-#define MUX_CONTROL_PIN0 2
-#define MUX_CONTROL_PIN1 3
-#define MUX_CONTROL_PIN2 4
-#define MUX_CONTROL_PIN3 5
-#define MUX_CONTROL_PIN4 6
+#define MUX_CONTROL_PIN0 6
+#define MUX_CONTROL_PIN1 7
+#define MUX_CONTROL_PIN2 8
+#define MUX_CONTROL_PIN3 9
+#define MUX_CONTROL_PIN4 10
 
 // Define the ADC pin connected to the output of the multiplexer
-#define MUX_ADC_PIN 26
+#define MUX_ADC_PIN 27
 
 void select_mux_channel(uint8_t channel) {
     gpio_put(MUX_CONTROL_PIN0, channel & 0x01);

@@ -1,4 +1,4 @@
-# Install script for directory: /home/maka/Documents/Callibration/pico-sdk/src/rp2040
+# Install script for directory: /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2040
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/maka/Documents/Callibration/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
-  include("/home/maka/Documents/Callibration/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
+  include("/home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/src/rp2040/hardware_regs/cmake_install.cmake")
+  include("/home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/src/rp2040/hardware_structs/cmake_install.cmake")
 
 endif()
 

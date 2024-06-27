@@ -1,5 +1,5 @@
 CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/queue.c.obj: \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_util/queue.c \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_util/queue.c \
  /usr/arm-none-eabi/include/stdlib.h \
  /usr/arm-none-eabi/include/machine/ieeefp.h \
  /usr/arm-none-eabi/include/_ansi.h /usr/arm-none-eabi/include/newlib.h \
@@ -19,31 +19,31 @@ CMakeFiles/hallcal.dir/pico-sdk/src/common/pico_util/queue.c.obj: \
  /usr/arm-none-eabi/include/sys/_locale.h \
  /usr/arm-none-eabi/include/strings.h \
  /usr/arm-none-eabi/include/sys/string.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico/assert.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_util/include/pico/util/queue.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /usr/arm-none-eabi/include/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdint.h \
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/sys/_intsup.h \
  /usr/arm-none-eabi/include/sys/_stdint.h \
- /home/maka/Documents/Callibration/build/generated/pico_base/pico/version.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/maka/Documents/Callibration/build/generated/pico_base/pico/config_autogen.h \
- /home/maka/Documents/Callibration/pico-sdk/src/boards/include/boards/pico.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico/error.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_time/include/pico/time.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/build/generated/pico_base/pico/version.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico/config.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/build/generated/pico_base/pico/config_autogen.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/boards/include/boards/pico.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico/error.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_time/include/pico/time.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h

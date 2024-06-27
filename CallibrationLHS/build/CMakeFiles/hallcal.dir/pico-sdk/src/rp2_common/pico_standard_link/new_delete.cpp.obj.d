@@ -1,5 +1,5 @@
 CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp \
  /usr/arm-none-eabi/include/c++/13.2.1/cstdlib \
  /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
  /usr/arm-none-eabi/include/c++/13.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/os_defines.h \
@@ -22,9 +22,9 @@ CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
  /usr/arm-none-eabi/include/machine/stdlib.h \
  /usr/arm-none-eabi/include/alloca.h \
  /usr/arm-none-eabi/include/c++/13.2.1/bits/std_abs.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico/assert.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico/assert.h \
  /usr/lib/gcc/arm-none-eabi/13.2.1/include/stdbool.h \
  /usr/arm-none-eabi/include/c++/13.2.1/cassert \
  /usr/arm-none-eabi/include/assert.h \
@@ -32,14 +32,14 @@ CMakeFiles/hallcal.dir/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/sys/_intsup.h \
  /usr/arm-none-eabi/include/sys/_stdint.h \
- /home/maka/Documents/Callibration/build/generated/pico_base/pico/version.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico/config.h \
- /home/maka/Documents/Callibration/build/generated/pico_base/pico/config_autogen.h \
- /home/maka/Documents/Callibration/pico-sdk/src/boards/include/boards/pico.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
- /home/maka/Documents/Callibration/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico/types.h \
- /home/maka/Documents/Callibration/pico-sdk/src/common/pico_base/include/pico/error.h
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/build/generated/pico_base/pico/version.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico/config.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/build/generated/pico_base/pico/config_autogen.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/boards/include/boards/pico.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico/types.h \
+ /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/common/pico_base/include/pico/error.h

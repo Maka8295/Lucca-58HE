@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maka/Documents/Callibration
+CMAKE_SOURCE_DIR = /home/maka/Documents/Lucca-58HE/CallibrationLHS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maka/Documents/Callibration/build
+CMAKE_BINARY_DIR = /home/maka/Documents/Lucca-58HE/CallibrationLHS/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/progr
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maka/Documents/Callibration/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /home/maka/Documents/Callibration/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/maka/Documents/Callibration/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/maka/Documents/Callibration/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/maka/Documents/Lucca-58HE/CallibrationLHS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/src/rp2_common/boot_stage2 && /usr/bin/arm-none-eabi-objcopy -Obinary /home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -82,10 +82,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_de
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /home/maka/Documents/Callibration/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /home/maka/Documents/Callibration/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maka/Documents/Callibration /home/maka/Documents/Callibration/pico-sdk/src/rp2_common/boot_stage2 /home/maka/Documents/Callibration/build /home/maka/Documents/Callibration/build/pico-sdk/src/rp2_common/boot_stage2 /home/maka/Documents/Callibration/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/maka/Documents/Lucca-58HE/CallibrationLHS/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maka/Documents/Lucca-58HE/CallibrationLHS /home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/src/rp2_common/boot_stage2 /home/maka/Documents/Lucca-58HE/CallibrationLHS/build /home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/src/rp2_common/boot_stage2 /home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

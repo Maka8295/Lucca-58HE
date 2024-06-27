@@ -9,7 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "CMakeFiles/3.29.6/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.29.6/CMakeSystem.cmake"
-  "/home/maka/Documents/Callibration/pico-sdk/tools/pioasm/CMakeLists.txt"
+  "/home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/tools/pioasm/CMakeLists.txt"
   "/usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in"
   "/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
   "/usr/share/cmake/Modules/CMakeCXXInformation.cmake"

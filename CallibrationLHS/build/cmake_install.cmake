@@ -1,4 +1,4 @@
-# Install script for directory: /home/maka/Documents/Callibration
+# Install script for directory: /home/maka/Documents/Lucca-58HE/CallibrationLHS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/maka/Documents/Callibration/build/pico-sdk/cmake_install.cmake")
+  include("/home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/maka/Documents/Callibration/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/maka/Documents/Lucca-58HE/CallibrationLHS/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
