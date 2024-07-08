@@ -1,6 +1,6 @@
-set(CMAKE_HOST_SYSTEM "Linux-6.9.6-arch1-1")
+set(CMAKE_HOST_SYSTEM "Linux-6.9.7-arch1-1")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "6.9.6-arch1-1")
+set(CMAKE_HOST_SYSTEM_VERSION "6.9.7-arch1-1")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
 include("/home/maka/Documents/Lucca-58HE/CallibrationLHS/pico-sdk/cmake/preload/toolchains/pico_arm_gcc.cmake")

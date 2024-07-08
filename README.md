@@ -1,6 +1,10 @@
 # Lucca 58HE
 The Lucca 58HE is a 58 key hall effect split keyboard!
 
+Status update:
+
+Hall effect sensors are currently resulting in a resolution of 0.00706mm inanalog switch, so things are looking very promising :)My choice of HE sensor results in a voltage range of ~0 to ~0.4v, so using a different HE sensor with a greater sensitivity (not to be confused wit resolution) could result in even greater resolution of distance traveled, as the 12bit ADC on the RP2040 references the internal 3.3v. Am going on family holiday soon so progress will slow down a lot, may not be able to finish the project until the new year...
+
 TO DO:
 - Callibration for LHS [○]
 - Callibration for RHS [○]
