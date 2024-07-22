@@ -1,0 +1,1 @@
+SD cards mounted at /sd will hide this file from Python. SD cards are not visible via USB CIRCUITPY.
