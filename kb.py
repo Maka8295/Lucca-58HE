@@ -35,15 +35,15 @@ class KMKKeyboard(_KMKKeyboard):
 
     mux_in_pins = 32 #number of input pins of the multiplexer
 
-    keys_num = 29  #number of analog keys (per side if its split)
+    keys_num = 32  #number of analog keys (per side if its split)
 
     actuation = [ #choose per key modes and values (positive means threshold negativ means rapid trigger
         [
             1,1,1,1,1,1,
             1,1,1,1,1,1,
             1,1,1,1,1,1,
-            2,1,1,1,1,1,
-              1,1,1,1,1,
+            1,1,1,1,1,1,
+            1,1,1,1,1,1,1,1,
 
 
         ],
@@ -52,9 +52,9 @@ class KMKKeyboard(_KMKKeyboard):
 
 
     coord_mapping = [
-     0,  1,  2,  3,  4,  5,
-     6,  7,  8,  9, 10, 11,
-    12, 13, 14, 15, 16, 17,
-    18, 19, 20, 21, 22, 23,
-        25, 26, 27, 28, 29,
+        20,  4,  24,  8,  16,  0,
+        26,  10,  18,  2, 28, 12,
+        15, 31, 30, 14, 22, 6,
+        3, 19, 11, 27, 7, 23,
+        25, 5, 21, 13, 29,         1, 9, 17,
     ]

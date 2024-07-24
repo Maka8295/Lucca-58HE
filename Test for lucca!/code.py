@@ -28,10 +28,13 @@ def set_multiplexer_channel(channel):
     for i in range(5):
         control_pins[i].value = (channel >> i) & 0x01
 
-# Set the multiplexer to channel 3
-set_multiplexer_channel(3)
-
 while True:
-    adc_value = read_adc()
-    print(f"Channel 3: {adc_value}")
-    time.sleep(0.1)  #0.001 High refresh rate (1 ms delay)
+    adc_values = []  # List to store ADC values for all channels
+    for channel in range(32):  # Assuming 32 channels for the multiplexer
+        set_multiplexer_channel(channel)
+        adc_value = read_adc()
+        adc_values.append(f"Channel {channel}: {adc_value}")
+    # Print all channels on new lines
+    print("\n".join(adc_values))
+    print("\n" + "-"*40)  # Separator line for readability
+    time.sleep(1)  # Adjust delay as necessary

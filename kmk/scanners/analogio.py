@@ -7,12 +7,11 @@ from kmk.scanners import Scanner
 from kmk.modules import Module
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
-#from callibration import input_range
-input_range = [1200,7700]
+from callibration import input_range
 keyboard = KMKKeyboard()
 
 def mapping(val, input_range):
-    input_min, input_max = input_range
+    input_max, input_min = input_range
     output_min = 0
     output_max = 3.5
 
@@ -67,7 +66,7 @@ class AnalogScanner(Scanner):
                 self.a_val[i] = self.read_pin[0].value
 
             for i in range(self.keys_num):
-                self.a_val[i] = mapping(self.a_val[i], input_range + self.offset)  #input_range[i + self.offset]
+                self.a_val[i] = mapping(self.a_val[i], input_range[i + self.offset])  #input_range[i + self.offset]
 
             for i in range(self.keys_num):
 

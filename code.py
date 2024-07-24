@@ -32,11 +32,12 @@ ADJUST = KC.LT(3, KC.SPC)
 # fmt: off bvb
 keyboard.keymap = [
     [  #QWERTY
-        KC.ESC,   KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,
-        KC.TAB,    KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,
-        KC.LCTL,   KC.A,    KC.S,    KC.D,    KC.F,    KC.G,
-        KC.LSFT,   KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,
-                                KC.LCTL,   KC.LGUI,  KC.LALT, KC.SPC,
+        KC.LGUI,   KC.N1,   KC.LSFT,   KC.E,   XXXXXXX,   KC.N5,
+        KC.X,    KC.Q,    XXXXXXX,    KC.N3,    KC.V,    KC.G,
+        KC.S,   KC.A,    KC.KANA,    KC.D,    KC.SPC,    KC.T,
+        KC.N2,   KC.LCTL,    KC.X,    KC.C,    KC.R,    KC.SPC,
+        KC.Z,   KC.ESC,  KC.LALT, KC.F, KC.B, KC.N4, KC.W, XXXXXXX,
+
     ],
 ]
 # fmt: on

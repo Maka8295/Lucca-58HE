@@ -1,4 +1,3 @@
-
 import analogio
 import digitalio
 import time
@@ -8,17 +7,11 @@ from kmk.scanners import Scanner
 from kmk.modules import Module
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC
-#from callibration import input_range
-input_range = []
-poop = 0
-while poop < 30:
-    input_range.append([1200,7700])
-    poop += 1
-
+from callibration import input_range
 keyboard = KMKKeyboard()
 
 def mapping(val, input_range):
-    input_min, input_max = input_range
+    input_max, input_min = input_range
     output_min = 0
     output_max = 3.5
 
