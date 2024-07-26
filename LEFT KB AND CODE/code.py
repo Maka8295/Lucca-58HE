@@ -1,10 +1,11 @@
 #LEFT HAND
+import board
 from kb import KMKKeyboard
 from kmk.keys import KC
 from kmk.modules.layers import Layers
 from kmk.extensions.media_keys import MediaKeys
 from kmk.modules.mouse_keys import MouseKeys
-from kmk.extenions.RGB import RGB
+from kmk.extensions.RGB import RGB
 
 #from kmk.extensions.debug import Debug
 #keyboard.extensions.append(debug)
@@ -19,7 +20,9 @@ keyboard.extensions.append(MediaKeys())
 # Enable debugging: http://kmkfw.io/docs/debugging/
 keyboard.debug_enabled = True
 
-rgb = RGB(pixel_pin=board.GP28, num_pixels=10)
+rgb = RGB(pixel_pin=board.GP28, num_pixels=10,
+    val_limit=200
+)
 keyboard.extensions.append(rgb)
 
 
