@@ -43,18 +43,6 @@ class AnalogScanner(Scanner):
     def key_count(self):
         return self.keys_num
 
-        #   def scan_for_changes(self):
-        #if len(self.que) == 0: # if no key event is waiting to be read
-        #for i in range(self.mux_in_pins):
-            #self.ctrl_pins[0].value = (i & 0b00001) != 0
-            #self.ctrl_pins[1].value = (i & 0b00010) != 0
-            #self.ctrl_pins[2].value = (i & 0b00100) != 0
-            #self.ctrl_pins[3].value = (i & 0b01000) != 0
-            #self.ctrl_pins[4].value = (i & 0b10000) != 0
-            #for index, j in enumerate(self.read_pin):
-                #self.a_val[i + self.mux_in_pins * index] = j.value
-
-
     def scan_for_changes(self):
         if len(self.que) == 0:  # if no key event is waiting to be read
             for i in range(self.mux_in_pins):
@@ -78,7 +66,22 @@ class AnalogScanner(Scanner):
                         self.pressed[i] = False
                         self.que.append(i)
 #RAPID TRIGGER HERE
-
+#        elif self.actuation[keyboard.active_layers[0]][i + self.offset] < 0:
+#            if self.a_val[i] < self.a_val_old[i] - abs(self.actuation[keyboard.active_layers[0]][i + self.offset]):
+#                self.a_val_old[i] = self.a_val[i]
+#                if not self.pressed[i]:
+#                    self.pressed[i] = True
+#                    self.que.append(i)
+#            elif self.a_val[i] > self.a_val_old[i] + abs(self.actuation[keyboard.active_layers[0]][i + self.offset]):
+#                self.a_val_old[i] = self.a_val[i]
+#                if self.pressed[i]:
+#                    self.pressed[i] = False
+#                    self.que.append(i)
+#                elif self.pressed[i] and self.a_val[i]>3.4: #edge case if key gets stuck
+#                    self.a_val_old[i] = self.a_val[i]
+#                    self.pressed[i] = False
+#                    self.que.append(i)
+################
         elif len(self.que) > 0:
             temp = self.que.pop(0)
             return keypad.Event(temp + self.offset, self.pressed[temp])

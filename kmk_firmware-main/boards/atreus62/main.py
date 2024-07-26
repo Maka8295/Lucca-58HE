@@ -1,0 +1,121 @@
+import board
+
+from kb import KMKKeyboard
+
+from kmk.keys import KC
+from kmk.modules.encoder import EncoderHandler
+from kmk.modules.layers import Layers
+from kmk.modules.macros import Delay, Macros, Tap
+
+# local_increment = None
+# local_decrement = None
+
+keyboard = KMKKeyboard()
+
+# custom keys used for encoder actions
+Zoom_in = KC.LCTRL(KC.EQUAL)
+Zoom_out = KC.LCTRL(KC.MINUS)
+
+#  standard filler keys
+_______ = KC.TRNS
+XXXXXXX = KC.NO
+
+
+layers = Layers()
+
+# 1 encoder, no button, inversed = True
+encoder = EncoderHandler(
+    (board.D40, board.D41, None, True),
+)
+
+macros = Macros()
+keyboard.modules = [layers, encoder, macros]
+
+keyboard.tap_time = 250
+keyboard.debug_enabled = False
+
+
+# custom keys
+NEW = KC.LCTL(KC.N)
+NEW_DIR = KC.LCTL(KC.LSFT(KC.N))
+CAD = KC.LCTL(KC.LALT(KC.DEL))
+RES = KC.LCTL(KC.LSFT(KC.ESC))
+FE = KC.LGUI(KC.E)
+LT1_DEL = KC.LT(1, KC.DEL)
+LT2_ENT = KC.LT(2, KC.ENT)
+SAVE_AS = KC.LCTL(KC.LSFT(KC.S))
+PSCR = KC.LGUI(KC.PSCR)
+SNIP = KC.MACRO(
+    Tap(KC.LGUI),
+    Delay(25),
+    'snip',
+    Delay(25),
+    Tap(KC.ENT),
+)
+
+# programming layer keys
+UINT = KC.MACRO('uint')
+INT = KC.MACRO('int')
+DOUBLE = KC.MACRO('double')
+BOOL = KC.MACRO('bool')
+BYTE = KC.MACRO('byte')
+SBYTE = KC.MACRO('sbyte')
+CHAR = KC.MACRO('char')
+GETSET = KC.MACRO('getset')
+PUBLIC = KC.MACRO('public')
+DEBUGWL = KC.MACRO('Debug.WriteLine(')
+PRINT = KC.MACRO('print')
+
+
+# make keymap
+# fmt:off
+keyboard.keymap = [
+    [  # qwerty
+        KC.ESC,    KC.N1,     KC.N2,     KC.N3,     KC.N4,     KC.N5,          KC.N6,     KC.N7,     KC.N8,     KC.N9,     KC.N0,     KC.MINS,
+        KC.CAPS,   KC.Q,      KC.W,      KC.E,      KC.R,      KC.T,           KC.Y,      KC.U,      KC.I,      KC.O,      KC.P,      KC.PSLS,
+        KC.TAB,    KC.A,      KC.S,      KC.D,      KC.F,      KC.G,           KC.H,      KC.J,      KC.K,      KC.L,      KC.SCLN,   KC.QUOT,
+        KC.TRNS,   KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,           KC.N,      KC.M,      KC.COMM,   KC.DOT,    KC.SLSH,   FE,
+        KC.BSPC,   KC.DEL,    KC.LALT,   KC.LSFT,   KC.LCTL,   KC.BSPC,        KC.SPC,    KC.ENT,    KC.RSFT,   KC.RCTL,   KC.ENT,    KC.RGUI,
+        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   KC.MO(1),       KC.MO(2),  KC.MUTE,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,
+    ],
+    [  # navnum
+        KC.TRNS,   SAVE_AS,   PSCR,      SNIP,      KC.LGUI,   NEW_DIR,        KC.PSLS,   KC.RGUI,   KC.NO,     KC.NO,     KC.NO,     KC.MINS,
+        KC.BSLS,   KC.NO,     KC.HOME,     KC.UP,     KC.END,     NEW,            KC.N5,     KC.N6,     KC.N7,     KC.N8,     KC.N9,     KC.BSLS,
+        KC.F2,     KC.NO,     KC.LEFT,   KC.DOWN,   KC.RGHT,   KC.HASH,        KC.N0,     KC.N1,     KC.N2,     KC.N3,     KC.N4,     KC.QUOT,
+        KC.LSFT,   KC.NO,     KC.NO,     KC.NO,     KC.TAB,    KC.UNDS,        KC.MINS,   KC.PPLS,   KC.MINS,   KC.PAST,   KC.PSLS,   KC.LBRC,
+        KC.BSPC,   KC.NO,     KC.NO,     KC.NO,     KC.NO,     KC.TRNS,        KC.SPC,    KC.EQL,    KC.N0,     KC.DOT,    KC.ENT,    KC.RGUI,
+        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   KC.TRNS,        KC.TRNS,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,
+    ],
+    [  # sym/prog
+        KC.TRNS,   KC.NO,     KC.NO,     KC.NO,     KC.F2,     KC.AMPR,          PRINT,   DEBUGWL,     SAVE_AS,   KC.NO,     KC.NO,     KC.NO,
+        KC.BSLS,   KC.NO,     KC.NO,     KC.LCBR,   KC.RCBR,   KC.AT,          INT,       GETSET,    KC.UP,    KC.NO,     KC.NO,     KC.NO,
+        KC.TAB,    KC.NO,     KC.NO,     KC.LPRN,   KC.RPRN,   KC.DLR,         BOOL,      KC.LEFT,    KC.DOWN,     KC.RGHT,     KC.NO,     KC.NO,
+        KC.LSFT,   KC.NO,     KC.NO,     KC.LBRC,   KC.RBRC,   KC.PERC,        UINT,      DOUBLE,      KC.NO,     KC.NO,     KC.NO,     KC.NO,
+        KC.BSPC,   KC.LGUI,   KC.LALT,   KC.LSFT,   KC.LCTL,   KC.DEL,         KC.TRNS,   PUBLIC,    KC.RCTL,   KC.RALT,   KC.ENT,    KC.RESET,
+        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   KC.TRNS,        KC.TRNS,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,
+    ],
+]
+# fmt:on
+
+
+#  for use in the encoder extension
+# fmt:off
+encoder_map = [
+    [
+        (
+            KC.VOLU,
+            KC.VOLD,
+            None,
+        ),  #  Only 1 encoder is being used, so only one tuple per layer is required
+    ],
+    [
+        (Zoom_in, Zoom_out, None),
+    ],
+    [
+        (_______, _______, None),  #  no action taken by the encoder on this layer
+    ],
+]
+# fmt:on
+
+if __name__ == '__main__':
+    keyboard.go()
