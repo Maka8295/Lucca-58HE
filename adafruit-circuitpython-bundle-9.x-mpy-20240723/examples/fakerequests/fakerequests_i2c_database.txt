@@ -1,0 +1,14 @@
+0x18,MCP9808 temp sensor,adafruit_mcp9808,MCP9808
+0x37,PCT2075 Temperature Sensor,adafruit_pct2075,PCT2075
+0x40,Si7021 Humidity/Temp sensor,adafruit_si7021,SI7021
+0x40,HTU21D-F Humidity/Temp Sensor,adafruit_htu21d,HTU21D
+0x40,HTU31D breakout,adafruit_htu31d,HTU31D
+0x44,SHT31 Humidity/Temp sensor,adafruit_shtc3,SHTC3
+0x38,AHT20 Temperature & Humidity Sensor,adafruit_ahtx0,AHTx0
+0x5C,AM2320 Humidity/Temp sensor,adafruit_am2320,AM2320
+0x44,SHT4x temperature and humidity sensors,adafruit_sht4x, SHT4x
+0x70,SHTC3 Humidity and Temperature Sensor,adafruit_shtc3,SHTC3
+0x48,TMP117 Temperature sensor,adafruit_tmp117,TMP117
+0x60,MPL115A2 I2C Barometric Pressure/Temperature Sensor,adafruit_mpl115a2,MPL115A2
+0x48,TC74 Digital Temperature Sensor,adafruit_tc74,TC74
+0x48,ADT7410 analog temperature Sensor,adafruit_adt7410,ADT7410

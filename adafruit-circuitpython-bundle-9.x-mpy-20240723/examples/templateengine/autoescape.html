@@ -1,0 +1,31 @@
+<!--
+SPDX-FileCopyrightText: Copyright (c) 2023 Michał Pokusa
+
+SPDX-License-Identifier: Unlicense
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>
+        Example of autoescaping unsafe characters in HTML
+    </title>
+</head>
+
+<body>
+    This would be a {{ "<b>bold text</b>" }}, but autoescaping is turned on, so all
+    unsafe characters are escaped.
+
+    {% autoescape off %}
+        This is a {{ "<b>bold text</b>" }}, because autoescaping is turned off in this block.
+
+        {% autoescape on %}
+            And again, this is not a {{ "<b>bold text</b>" }},
+            because in this block autoescaping is turned on again.
+        {% endautoescape %}
+    {% endautoescape %}
+</body>
+
+</html>

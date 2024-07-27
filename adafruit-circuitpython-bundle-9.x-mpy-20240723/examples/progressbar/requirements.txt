@@ -1,0 +1,12 @@
+# SPDX-FileCopyrightText: 2021 ladyada for Adafruit Industries
+#
+# SPDX-License-Identifier: Unlicense
+
+# We're using a separate "requirements.txt" file for the
+# examples, to prevent the circup tool from attempting to
+# copy the library to the device.
+
+Adafruit-Blinka
+adafruit-blinka-displayio
+blinka-displayio-pygamedisplay
+adafruit-circuitpython-fancyled

@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2022 Alec Delaney, for Adafruit Industries
+#
+# SPDX-License-Identifier: Unlicense
+
+Adafruit-Blinka
+adafruit-circuitpython-framebuf>=1.4.2
+adafruit-circuitpython-led-animation
+adafruit-circuitpython-typing ~=1.4

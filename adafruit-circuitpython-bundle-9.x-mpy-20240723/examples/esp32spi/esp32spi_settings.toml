@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2019 ladyada for Adafruit Industries
+# SPDX-License-Identifier: MIT
+
+# This file is where you keep secret settings, passwords, and tokens!
+# If you put them in the code you risk committing that info or sharing it
+
+# The file should be renamed to `settings.toml` and saved in the root of
+# the CIRCUITPY drive.
+
+CIRCUITPY_WIFI_SSID="yourssid"
+CIRCUITPY_WIFI_PASSWORD="yourpassword"
+CIRCUITPY_TIMEZONE="America/New_York"
+CIRCUITPY_AIO_USERNAME="youraiousername"
+CIRCUITPY_AIO_KEY="youraiokey"

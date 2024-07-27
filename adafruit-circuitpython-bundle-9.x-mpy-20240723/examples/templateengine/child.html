@@ -1,0 +1,20 @@
+<!--
+SPDX-FileCopyrightText: Copyright (c) 2023 Michał Pokusa
+
+SPDX-License-Identifier: Unlicense
+-->
+
+{% extends "./examples/parent_layout.html" %}
+
+{% block title %} {{ block.super }} - Cart {% endblock title %}
+
+{% block content %}
+Items in cart:
+<ul>
+    {% for item in context["items"] %}
+        <li>{{ item["name"] }} - ${{ item["price"] }}</li>
+    {% empty %}
+        <li>There are no items on the list.</li>
+    {% endfor %}
+</ul>
+{% endblock content %}

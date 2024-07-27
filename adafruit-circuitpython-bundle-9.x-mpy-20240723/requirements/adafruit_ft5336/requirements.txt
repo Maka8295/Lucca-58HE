@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: Copyright (c) 2023 Liz Clark for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+Adafruit-Blinka
+adafruit-circuitpython-busdevice
+adafruit-circuitpython-register

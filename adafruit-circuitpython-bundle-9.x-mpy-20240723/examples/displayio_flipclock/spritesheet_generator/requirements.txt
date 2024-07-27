@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: Copyright (c) 2022 Tim Cocks for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+pillow
+numpy
+typer

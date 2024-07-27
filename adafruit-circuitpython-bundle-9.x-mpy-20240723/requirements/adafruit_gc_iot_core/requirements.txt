@@ -1,0 +1,11 @@
+# SPDX-FileCopyrightText: 2022 Alec Delaney, for Adafruit Industries
+#
+# SPDX-License-Identifier: Unlicense
+
+Adafruit-Blinka
+adafruit-circuitpython-logging>=4.0.1
+adafruit-circuitpython-jwt
+adafruit-circuitpython-hashlib>=1.4.5
+adafruit-circuitpython-minimqtt>=5.3.2
+adafruit-circuitpython-rsa>=1.2.12
+adafruit-circuitpython-esp32spi>=5.0.0

@@ -1,0 +1,26 @@
+<!--
+SPDX-FileCopyrightText: Copyright (c) 2023 Michał Pokusa
+
+SPDX-License-Identifier: Unlicense
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Example of comments in templates</title>
+</head>
+<body>
+    Nothing below this line will be rendered
+
+    {# This is a line comment #}
+
+    {% comment %}
+        This is a block comment without optional note
+    {% endcomment %}
+
+    {% comment "Optional note" %}
+        This is a block comment with optional note
+    {% endcomment %}
+</body>
+</html>

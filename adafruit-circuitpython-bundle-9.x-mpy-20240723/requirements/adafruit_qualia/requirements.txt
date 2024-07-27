@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2017 Scott Shawcroft, written for Adafruit Industries
+# SPDX-FileCopyrightText: Copyright (c) 2023 Melissa LeBlanc-Williams for Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+Adafruit-Blinka
+Adafruit-Blinka-displayio
+adafruit-circuitpython-minimqtt
+adafruit-circuitpython-miniqr
+adafruit-circuitpython-requests
+adafruit-circuitpython-portalbase
+adafruit-circuitpython-pca9554
+adafruit-circuitpython-cst8xx
+adafruit-circuitpython-focaltouch

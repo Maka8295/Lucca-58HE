@@ -1,0 +1,13 @@
+# SPDX-FileCopyrightText: 2022 Alec Delaney, for Adafruit Industries
+#
+# SPDX-License-Identifier: Unlicense
+
+Adafruit-Blinka-displayio
+Adafruit-Blinka
+adafruit-circuitpython-bitmap-font
+adafruit-circuitpython-busdevice
+adafruit-circuitpython-touchscreen
+adafruit-circuitpython-esp32spi
+adafruit-circuitpython-requests
+adafruit-circuitpython-neopixel
+adafruit-circuitpython-portalbase

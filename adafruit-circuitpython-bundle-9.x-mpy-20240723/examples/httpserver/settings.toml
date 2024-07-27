@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2023 Michał Pokusa
+#
+# SPDX-License-Identifier: Unlicense
+
+# Setting these variables will automatically connect board to WiFi on boot
+CIRCUITPY_WIFI_SSID="Your WiFi SSID Here"
+CIRCUITPY_WIFI_PASSWORD="Your WiFi Password Here"

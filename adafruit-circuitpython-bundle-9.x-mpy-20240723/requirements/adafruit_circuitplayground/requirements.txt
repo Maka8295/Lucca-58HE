@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2022 Alec Delaney, for Adafruit Industries
+#
+# SPDX-License-Identifier: Unlicense
+
+adafruit-circuitpython-lis3dh
+adafruit-circuitpython-neopixel
+adafruit-circuitpython-thermistor
+typing-extensions

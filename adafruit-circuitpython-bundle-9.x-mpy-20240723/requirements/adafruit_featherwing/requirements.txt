@@ -1,0 +1,22 @@
+# SPDX-FileCopyrightText: 2022 Alec Delaney, for Adafruit Industries
+#
+# SPDX-License-Identifier: Unlicense
+
+Adafruit-Blinka
+adafruit-circuitpython-adt7410
+adafruit-circuitpython-busdevice
+adafruit-circuitpython-stmpe610
+adafruit-circuitpython-ht16k33
+adafruit-circuitpython-dotstar
+adafruit-circuitpython-neopixel
+adafruit-circuitpython-ina219
+adafruit-circuitpython-ds3231
+adafruit-circuitpython-ili9341
+adafruit-circuitpython-gps
+adafruit-circuitpython-register
+adafruit-circuitpython-hx8357
+adafruit-circuitpython-st7735r
+adafruit-circuitpython-adxl34x
+adafruit-circuitpython-seesaw
+adafruit-circuitpython-tsc2007
+adafruit-circuitpython-focaltouch

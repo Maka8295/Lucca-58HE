@@ -1,0 +1,56 @@
+<!--
+SPDX-FileCopyrightText: 2023 Michal Pokusa
+
+SPDX-License-Identifier: Unlicense
+-->
+
+<html lang="en">
+
+{% exec path = context.get("path") %}
+{% exec items = context.get("items") %}
+
+<head>
+    <meta charset="UTF-8">
+    <title>Directory listing for /{{ path }}</title>
+</head>
+
+<body>
+    <h1>Directory listing for /{{ path }}</h1>
+
+    <input type="text" placeholder="Search...">
+
+    <ul>
+        {# Going to parent directory if not alredy in #}
+        {% if path %}
+            <li><a href="?path=/{{ "".join(path.split('/')[:-1]) }}">..</a></li>
+        {% endif %}
+
+        {# Listing items #}
+        {% for item in items %}
+            <li><a href="?path={{ f'/{path}/{item}' if path else f'/{item}' }}">{{ item }}</a></li>
+        {% endfor %}
+
+    </ul>
+
+    {# Script for filtering items #}
+    <script>
+        const search = document.querySelector('input');
+        const items = document.querySelectorAll('li');
+
+        search.addEventListener('keyup', (e) => {
+            const term = e.target.value.toLowerCase();
+
+            items.forEach(item => {
+                const text = item.innerText.toLowerCase();
+
+                if (text.indexOf(term) != -1) {
+                    item.style.display = 'list-item';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

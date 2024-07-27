@@ -1,0 +1,9 @@
+# SPDX-FileCopyrightText: 2022 Alec Delaney, for Adafruit Industries
+#
+# SPDX-License-Identifier: Unlicense
+
+Adafruit-Blinka
+adafruit-circuitpython-framebuf
+adafruit-circuitpython-busdevice
+adafruit-circuitpython-typing~=1.6
+adafruit-circuitpython-register

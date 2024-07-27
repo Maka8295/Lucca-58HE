@@ -1,0 +1,74 @@
+[
+  {
+    "card_id": "startup",
+    "background_image": "startup.bmp",
+    "sound": "startup.wav",
+    "auto_advance": "5"
+  },
+  {
+    "card_id": "home",
+    "background_image": "home.bmp",
+    "sound": "home.wav",
+    "sound_repeat": "True",
+    "button01_text": "Help",
+    "button01_goto_card_id": "help",
+    "button02_text": "Start",
+    "button02_goto_card_id": "want to build?"
+  },
+
+  {
+    "card_id": "want to build?",
+    "background_image": "page01.bmp",
+    "text": "You do not have any friends so you decide that it might be a good idea to build a robot friend. You're unsure if you want to do this, so now is the time to decide. Do you want to build a robot friend?",
+    "text_color": "0x000001",
+    "sound": "sound_01.wav",
+    "button01_text": "Yes",
+    "button01_goto_card_id": "continue?",
+    "button02_text": "No",
+    "button02_goto_card_id": "lazy"
+  },
+  {
+    "card_id": "continue?",
+    "background_image": "page02.bmp",
+    "text": "You spend all day, then all week, then all month building a robot, everyone stops talking to you, however a lot of progress has been made. Do you want to keep making the robots?",
+    "text_color": "0xFFFFFF",
+    "button01_text": "Yes",
+    "button01_goto_card_id": "robot friend",
+    "button02_text": "No",
+    "button02_goto_card_id": "lazy"
+  },
+  {
+    "card_id": "robot friend",
+    "background_image": "page03.bmp",
+    "text": "The robot is now you're friend, everyone else wishes they had a robot, this is the best thing ever. Good work!",
+    "text_color": "0xFFFFFF",
+    "sound": "Mystery.wav",
+    "button01_text": "Next",
+    "button01_goto_card_id": "happy ending"
+  },
+  {
+    "card_id": "lazy",
+    "background_image": "page04.bmp",
+    "sound": "sound_04.wav",
+    "text": "Welp, not only will you not have any friends, you are lazy. What's the point of playing? Try again.",
+    "text_color": "0xFFFFFF",
+    "button01_text": "Start Over",
+    "button01_goto_card_id": "home"
+  },
+  {
+    "card_id": "help",
+    "background_image": "help.bmp",
+    "text": "All you need to do is click the buttons, that's it.\nThis is a new line.",
+    "text_color": "0xFFFFFF",
+    "button01_text": "Home",
+    "button01_goto_card_id": "home"
+  },
+ {
+    "card_id": "happy ending",
+    "background_image": "happyending.bmp",
+    "sound": "happy_ending.wav",
+    "sound_repeat": "True",
+    "button01_text": "Home",
+    "button01_goto_card_id": "home"
+  }
+]
