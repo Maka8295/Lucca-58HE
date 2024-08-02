@@ -24,16 +24,20 @@ This keyboard is still very much a work in progress!! Kicad files for PCBs and s
 - MCU - Waveshare RP2040 Zero 
 - OLED - SSD1306 128x32 
 - HE Sensor - DRV5053VAQDBZR 
-- LPF Resistor 1.5k Ohm 0802 
-- I2C / SPI pull-up resistor 4.7k Ohm 0802
-- 0 Ohm Resistors for UART mode 0802
-- Filter caps 100nF 0802
+- LPF Resistor 1.5k Ohm 0805 package
+- I2C / SPI pull-up resistor 4.7k Ohm 0805 package
+- 0 Ohm Resistors for UART mode 0805 package
+- Filter caps 100nF 0805 package
 - SK6803 MINI-E (you can use SK6812 instead but dont use both under glow and per key as current draw is too high)
 - M2.5, 3mm brass stand offs 
 - M2.5, 12mm screws with flat tops
 - M2.5 x 6 x 0.4mm washers 
 - M2.5 nuts 1.8mm thick
 - My 3d Printed case!
+
+## How To Install
+
+- ...
 
 ## To do
 
