@@ -3,6 +3,8 @@ The Lucca 58HE is a 58 key hall effect split keyboard!
 
 This keyboard is still very much a work in progress!! Kicad files for PCBs and switch plate, 3d files for case all available. Currently working under KMK!
 
+![IMG_6700](https://github.com/user-attachments/assets/aa22d8b3-7bef-4428-90fe-1be624bb01be)
+
 ## Features
 
 - Fully addressable per-key RGB
@@ -13,6 +15,8 @@ This keyboard is still very much a work in progress!! Kicad files for PCBs and s
 - Rapid Trigger
 - 3D Printed Case
 - Compatible with standard HE Switches, I reccomend Gateron Jades
+
+![IMG_6701](https://github.com/user-attachments/assets/d41b9f8e-27c2-444f-80f4-b9e1a3898853)
 
 ## Bill of Materials
 
@@ -25,7 +29,6 @@ This keyboard is still very much a work in progress!! Kicad files for PCBs and s
 - 0 Ohm Resistors for UART mode 0802
 - Filter caps 100nF 0802
 - SK6803 MINI-E (you can use SK6812 instead but dont use both under glow and per key as current draw is too high)
-
 - M2.5, 3mm brass stand offs 
 - M2.5, 12mm screws with flat tops
 - M2.5 x 6 x 0.4mm washers 
