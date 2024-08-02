@@ -1,3 +1,0 @@
-/home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pioasm/CMakeFiles/pioasm.dir
-/home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pioasm/CMakeFiles/edit_cache.dir
-/home/maka/Documents/Lucca-58HE/CallibrationLHS/build/pioasm/CMakeFiles/rebuild_cache.dir
